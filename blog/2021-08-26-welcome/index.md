@@ -1,6 +1,6 @@
 ---
 slug: welcome
-title: Welcome
+title: مزایای یاقوت برای شرکت‌ها
 authors: [slorber, yangshun]
 tags: [facebook, hello, docusaurus]
 ---

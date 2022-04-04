@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "نرم‌افزار تحت وب یاقوت",
+  tagline: "محاسبه حقوق و دستمزد",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -54,9 +54,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "نرم‌افزار تحت وب یاقوت",
         logo: {
-          alt: "My Site Logo",
+          alt: "نرم‌افزار تحت وب یاقوت",
           src: "img/logo.svg",
         },
         items: [
@@ -64,60 +64,60 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "راهنمای جامع",
           },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
-          },
+          { to: "/blog", label: "وبلاگ", position: "left" },
+          // {
+          //   href: "https://github.com/facebook/docusaurus",
+          //   label: "GitHub",
+          //   position: "right",
+          // },
         ],
       },
       footer: {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "آموزش‌ها",
             items: [
               {
-                label: "Tutorial",
+                label: "آموزش کار با اپلیکیشن",
                 to: "/docs/intro",
               },
             ],
           },
           {
-            title: "Community",
+            title: "شبکه های اجتماعی",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "تلگرام",
+                href: "https://google.com",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "اینستاگرام",
+                href: "https://google.com",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "توییتر",
+                href: "https://google.com",
               },
             ],
           },
           {
-            title: "More",
+            title: "جدیدترین مقالات",
             items: [
               {
-                label: "Blog",
+                label: "وبلاگ",
                 to: "/blog",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "دانلود اپلیکیشن",
+                href: "https://google.com",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Karafarid.`,
       },
       prism: {
         theme: lightCodeTheme,

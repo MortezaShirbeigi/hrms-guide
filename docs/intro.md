@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# آموزش اولیه
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+## بیاید آموزش را آغاز کنیم
 
 Get started by **creating a new site**.
 

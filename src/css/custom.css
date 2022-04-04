@@ -5,6 +5,12 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@font-face {
+  font-family: "iransans";
+  src: url("/static/fonts/iransansfanumlight.ttf");
+}
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -17,7 +23,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -34,11 +40,34 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-[data-theme='dark'] .docusaurus-highlight-code-line {
+[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-
-.modal-view .navbar, .modal-view .footer   {
+/* hide header footer sidebars */
+.modal-view .navbar,
+.modal-view .footer,
+.modal-view aside,
+.modal-view .col--3 {
   display: none !important;
+}
+
+/* center container */
+.modal-view .docItemCol_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem-styles-module {
+  max-width: 100% !important;
+}
+
+.modal-view .docPage_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module {
+  justify-content: center;
+}
+/* End center container */
+
+*,
+html,
+body,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "iransans";
 }

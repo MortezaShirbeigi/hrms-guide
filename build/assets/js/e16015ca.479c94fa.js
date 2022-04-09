@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkarafarid_doc_web=self.webpackChunkkarafarid_doc_web||[]).push([[700],{5688:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"hola","count":1,"permalink":"/blog/tags/hola"}')}}]);

@@ -9,7 +9,7 @@ const config = {
   title: "نرم‌افزار تحت وب یاقوت",
   tagline: "محاسبه حقوق و دستمزد",
   url: "https://mortezashirbeigi.github.io",
-  baseUrl: "/hrms-guide",
+  baseUrl: "/hrms-guide/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",

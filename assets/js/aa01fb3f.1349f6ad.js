@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkarafarid_doc_web=self.webpackChunkkarafarid_doc_web||[]).push([[342],{1365:function(a){a.exports=JSON.parse('{"permalink":"/hrms-guide/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

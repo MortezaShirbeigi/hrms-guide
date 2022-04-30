@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkarafarid_doc_web=self.webpackChunkkarafarid_doc_web||[]).push([[862],{4618:function(a){a.exports=JSON.parse('{"allTagsPath":"/hrms-guide/blog/tags","name":"hello","count":2,"permalink":"/hrms-guide/blog/tags/hello"}')}}]);

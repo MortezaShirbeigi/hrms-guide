@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkarafarid_doc_web=self.webpackChunkkarafarid_doc_web||[]).push([[831],{5248:function(e){e.exports=JSON.parse('{"permalink":"/hrms-guide/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

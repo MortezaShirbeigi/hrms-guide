@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkarafarid_doc_web=self.webpackChunkkarafarid_doc_web||[]).push([[156],{8203:function(a){a.exports=JSON.parse('{"allTagsPath":"/hrms-guide/blog/tags","name":"docusaurus","count":4,"permalink":"/hrms-guide/blog/tags/docusaurus"}')}}]);

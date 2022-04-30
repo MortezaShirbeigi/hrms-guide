@@ -12,6 +12,8 @@ const Root = ({ children }) => {
     }
   }, []);
 
+  console.log("isMOdal", isMOdal);
+
   return <div className={isMOdal ? "modal-view" : "root"}>{children}</div>;
 };
 

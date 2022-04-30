@@ -8,13 +8,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "نرم‌افزار تحت وب یاقوت",
   tagline: "محاسبه حقوق و دستمزد",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://mortezashirbeigi.github.io",
+  baseUrl: "/hrms-guide",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "MortezaShirbeigi", // Usually your GitHub org/user name.
+  projectName: "hrms-guide", // Usually your repo name.
 
   i18n: {
     defaultLocale: "fa",

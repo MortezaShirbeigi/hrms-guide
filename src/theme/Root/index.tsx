@@ -4,7 +4,7 @@ import { useLocation } from "@docusaurus/router";
 const Root = ({ children }) => {
   const location = useLocation();
   const modalView = location.search.includes("?modal=true");
-  const [isMOdal] = useState(modalView);
+  const [isModal] = useState(modalView);
 
   useEffect(() => {
     if (location.hash) {
@@ -12,9 +12,7 @@ const Root = ({ children }) => {
     }
   }, []);
 
-  console.log("isMOdal", isMOdal);
-
-  return <div className={isMOdal ? "modal-view" : "root"}>{children}</div>;
+  return <div className={isModal ? "modal-view" : "root"}>{children}</div>;
 };
 
 export default Root;

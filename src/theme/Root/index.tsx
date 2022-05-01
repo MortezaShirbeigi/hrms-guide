@@ -12,10 +12,13 @@ const Root = ({ children }) => {
     }
   }, []);
 
-  console.log('isModal : ',isModal);
-  
+  console.log("isModal : ", isModal);
 
-  return <div className={isModal ? "modal-view" : "root"}>{children}</div>;
+  if (isModal) {
+    return <div className="modal-view">{children}</div>;
+  } else {
+    return <div className="root">{children}</div>;
+  }
 };
 
 export default Root;

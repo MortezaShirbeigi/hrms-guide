@@ -12,6 +12,9 @@ const Root = ({ children }) => {
     }
   }, []);
 
+  console.log('isModal : ',isModal);
+  
+
   return <div className={isModal ? "modal-view" : "root"}>{children}</div>;
 };
 

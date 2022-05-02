@@ -45,6 +45,13 @@
 }
 
 /* hide header footer sidebars */
+.modal-view {
+  display: block;
+}
+.root {
+  display: block;
+}
+
 .modal-view .navbar,
 .modal-view .footer,
 .modal-view aside,
@@ -53,11 +60,13 @@
 }
 
 /* center container */
-.modal-view .docItemCol_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem-styles-module {
+.modal-view
+  .docItemCol_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem-styles-module {
   max-width: 100% !important;
 }
 
-.modal-view .docPage_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module {
+.modal-view
+  .docPage_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module {
   justify-content: center;
 }
 /* End center container */

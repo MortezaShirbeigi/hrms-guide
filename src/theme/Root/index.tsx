@@ -10,15 +10,18 @@ const Root = ({ children }) => {
     if (location.hash) {
       document.querySelector(location.hash).scrollIntoView();
     }
+
+    if (isModal) document.querySelector("#root").classList.add("modal-view");
+    else document.querySelector("#root").classList.add("root");
   }, []);
 
   console.log("isModal : ", isModal);
 
-  if (isModal) {
-    return <div className="modal-view">{children}</div>;
-  } else {
-    return <div className="root">{children}</div>;
-  }
+  return (
+    <div style={{ display: "none" }} id="root">
+      {children}
+    </div>
+  );
 };
 
 export default Root;

@@ -46,10 +46,10 @@
 
 /* hide header footer sidebars */
 .modal-view {
-  display: block;
+  display: block !important;
 }
 .root {
-  display: block;
+  display: block !important;
 }
 
 .modal-view .navbar,

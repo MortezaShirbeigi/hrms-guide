@@ -18,7 +18,7 @@ const Root = ({ children }) => {
   console.log("isModal : ", isModal);
 
   return (
-    <div style={{ display: "none" }} id="root">
+    <div className="hidden" id="root">
       {children}
     </div>
   );
